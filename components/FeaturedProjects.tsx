@@ -71,7 +71,6 @@ export function FeaturedProjects() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noreferrer"
-                      onClick={(e) => e.stopPropagation()}
                       className="inline-flex items-center gap-1.5 hover:text-[color:var(--accent)]"
                     >
                       <ExternalLink className="w-3 h-3" />
@@ -83,7 +82,6 @@ export function FeaturedProjects() {
                       href={project.repoUrl}
                       target="_blank"
                       rel="noreferrer"
-                      onClick={(e) => e.stopPropagation()}
                       className="inline-flex items-center gap-1.5 hover:text-[color:var(--accent)]"
                     >
                       <GitHubMark className="w-3 h-3" />
